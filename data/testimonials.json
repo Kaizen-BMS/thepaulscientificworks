@@ -1,0 +1,67 @@
+[
+  {
+    "id": "t-001",
+    "quote": "Reliable supplier with professional customer support and durable scientific products.",
+    "authorName": "Science Department",
+    "authorRole": "Head of Department",
+    "organization": "Educational Institution",
+    "image": "",
+    "rating": 5,
+    "featured": true,
+    "showOnHome": true,
+    "order": 1,
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "t-002",
+    "quote": "Our nursing lab setup was completed smoothly with quality equipment and fast service.",
+    "authorName": "Procurement Head",
+    "authorRole": "Lab Manager",
+    "organization": "Nursing College",
+    "image": "",
+    "rating": 5,
+    "featured": true,
+    "showOnHome": true,
+    "order": 2,
+    "createdAt": "2024-01-02T00:00:00.000Z"
+  },
+  {
+    "id": "t-003",
+    "quote": "Trusted manufacturer for educational and scientific laboratory solutions.",
+    "authorName": "Director",
+    "authorRole": "Director",
+    "organization": "Government Institution",
+    "image": "",
+    "rating": 5,
+    "featured": true,
+    "showOnHome": true,
+    "order": 3,
+    "createdAt": "2024-01-03T00:00:00.000Z"
+  },
+  {
+    "id": "t-004",
+    "quote": "We appreciate the quality standards and responsive support provided by the company.",
+    "authorName": "Lab Coordinator",
+    "authorRole": "Coordinator",
+    "organization": "Research Laboratory",
+    "image": "",
+    "rating": 5,
+    "featured": false,
+    "showOnHome": true,
+    "order": 4,
+    "createdAt": "2024-01-04T00:00:00.000Z"
+  },
+  {
+    "id": "t-005",
+    "quote": "Affordable pricing with excellent build quality for school laboratory equipment.",
+    "authorName": "Principal",
+    "authorRole": "Principal",
+    "organization": "CBSE School",
+    "image": "",
+    "rating": 5,
+    "featured": false,
+    "showOnHome": true,
+    "order": 5,
+    "createdAt": "2024-01-05T00:00:00.000Z"
+  }
+]

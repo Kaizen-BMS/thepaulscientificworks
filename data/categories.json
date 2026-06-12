@@ -1,0 +1,18 @@
+[
+  { "id": "biology", "name": "Biology", "slug": "biology", "description": "Anatomical models, microscopes, and biological science equipment.", "icon": "🔬", "color": "emerald", "order": 1 },
+  { "id": "chemistry", "name": "Chemistry", "slug": "chemistry", "description": "Glassware, instruments, and consumables for chemistry practicals.", "icon": "⚗️", "color": "blue", "order": 2 },
+  { "id": "physics", "name": "Physics", "slug": "physics", "description": "Apparatus and instruments for physics experiments.", "icon": "⚡", "color": "cyan", "order": 3 },
+  { "id": "mathematics", "name": "Mathematics", "slug": "mathematics", "description": "Geometrical models, instruments, and manipulatives.", "icon": "📐", "color": "violet", "order": 4 },
+  { "id": "geography", "name": "Geography", "slug": "geography", "description": "Globes, maps, and landform models.", "icon": "🌍", "color": "amber", "order": 5 },
+  { "id": "midwifery-nursing", "name": "Midwifery and Nursing", "slug": "midwifery-nursing", "description": "Patient care simulators and medical training models.", "icon": "🏥", "color": "rose", "order": 6 },
+  { "id": "pre-clinical-sciences", "name": "Pre-Clinical Sciences", "slug": "pre-clinical-sciences", "description": "Medical models and simulators for anatomy education.", "icon": "🩺", "color": "indigo", "order": 7 },
+  {
+  "id": "laboratory-glassware-plasticware",
+  "name": "Laboratory Glassware & Plasticware",
+  "slug": "laboratory-glassware-plasticware",
+  "description": "Glassware, plasticware, and general laboratory instruments.",
+  "icon": "🧪",
+  "color": "teal",
+  "order": 8
+}
+]

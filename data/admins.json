@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Super Admin",
+    "email": "superadmin@paulscientific.com",
+    "password": "$2b$12$mQU/Q0Kd4BhpF519/7KWNuGOeSCmIpsPiDQQBlkViQXXBePViyw0i",
+    "role": "superadmin",
+    "createdAt": "2024-01-01T00:00:00.000Z"
+  },
+  {
+    "name": "Anand Pandey",
+    "email": "anandpandeylive12@gmail.com",
+    "password": "$2b$12$wwkDXsp76Dd2iMXy1pDwX.GCp9cW5eI.igIvCdhNHIqA75wczKjXy",
+    "role": "admin",
+    "id": 2,
+    "createdAt": "2026-06-08T10:31:19.990Z"
+  }
+]
