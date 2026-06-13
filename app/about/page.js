@@ -60,11 +60,23 @@ export default function AboutPage() {
     'Domestic & International Supply Capability',
   ];
 
-  const leadership = [
-    { name: 'Mr. Harpal Sagar', title: 'Founder & Director' },
-    { name: 'Mrs. Sunita Pal', title: 'Operations Manager' },
-    { name: 'Mrs. Mamta Rani', title: 'Product Development Head' },
-  ];
+const leadership = [
+  {
+    name: 'Mr. Harpal Sagar',
+    title: 'Founder & Director',
+    image: '/harpal-sagar.png',
+  },
+  {
+    name: 'Mrs. Sunita Pal',
+    title: 'Operations Manager',
+    image: '/sunita-pal.png',
+  },
+  {
+    name: 'Mrs. Mamta Rani',
+    title: 'Product Development Head',
+    image: '/mamta-rani.png',
+  },
+];
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -333,16 +345,16 @@ export default function AboutPage() {
               <motion.div
                 key={idx}
                 variants={itemVariants}
-                className="bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-all"
+               className="group bg-white dark:bg-slate-800 rounded-2xl overflow-hidden border border-slate-200 dark:border-slate-700 hover:shadow-lg transition-all"
                 whileHover={{ y: -8 }}
               >
-                <div className="aspect-square bg-gradient-to-br from-slate-100 to-slate-200 dark:from-slate-700 dark:to-slate-600 flex items-center justify-center">
-                  <div className="w-32 h-32 bg-gradient-to-br from-blue-400 to-slate-600 rounded-full flex items-center justify-center">
-                    <span className="text-white text-5xl font-bold">
-                      {leader.name.charAt(0)}
-                    </span>
-                  </div>
-                </div>
+                <div className="aspect-square overflow-hidden bg-slate-100 dark:bg-slate-700">
+  <img
+    src={leader.image}
+    alt={leader.name}
+    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+  />
+</div>
                 <div className="p-6 text-center">
                   <h3 className="text-xl font-bold text-slate-900 dark:text-white mb-1">
                     {leader.name}
