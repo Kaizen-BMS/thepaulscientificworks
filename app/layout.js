@@ -14,8 +14,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <head>
-        {/* Google Analytics */}
+      <body
+        className={`${inter.className} antialiased`}
+        suppressHydrationWarning
+      >
         <Script
           src="https://www.googletagmanager.com/gtag/js?id=G-QHN4M5TY0G"
           strategy="afterInteractive"
@@ -24,20 +26,13 @@ export default function RootLayout({ children }) {
         <Script id="google-analytics" strategy="afterInteractive">
           {`
             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
+            function gtag(){window.dataLayer.push(arguments);}
             gtag('js', new Date());
             gtag('config', 'G-QHN4M5TY0G');
           `}
         </Script>
-      </head>
 
-      <body
-        className={`${inter.className} antialiased`}
-        suppressHydrationWarning
-      >
-        <ConditionalLayout>
-          {children}
-        </ConditionalLayout>
+        <ConditionalLayout>{children}</ConditionalLayout>
       </body>
     </html>
   );
