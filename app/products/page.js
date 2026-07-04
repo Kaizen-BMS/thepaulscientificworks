@@ -146,12 +146,23 @@ function ProductModal({ product, onClose }) {
                   </p>
                 )}
 
-                {product.fullDescription && (
-                  <div>
-                    <p className="text-[10.5px] font-bold text-slate-400 uppercase tracking-widest mb-2">Description</p>
-                    <p className="text-sm text-slate-600 dark:text-slate-400 leading-relaxed">{product.fullDescription}</p>
-                  </div>
-                )}
+               {Array.isArray(product.fullDescription) ? (
+  <ul className="grid gap-3 sm:grid-cols-2">
+    {product.fullDescription.map((item, index) => (
+      <li
+        key={index}
+        className="flex items-center gap-3 rounded-lg border border-slate-700 bg-slate-800/50 px-4 py-3"
+      >
+        <div className="h-2 w-2 rounded-full bg-blue-500 shrink-0"></div>
+        <span className="text-sm text-slate-300">{item}</span>
+      </li>
+    ))}
+  </ul>
+) : (
+  <p className="text-slate-300 leading-relaxed">
+    {product.fullDescription}
+  </p>
+)}
 
                 {product.features?.length > 0 && (
                   <div>
