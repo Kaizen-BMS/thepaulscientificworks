@@ -1311,6 +1311,7 @@
     "featured": false
   },
 
+  
   {
     "id": "MNL-001",
     "name": "Stages of Development of Embryo Model",
@@ -1553,205 +1554,13 @@
   },
   {
     "id": "COB-001",
-    "name": "Pregnancy Chart",
+    "name": "midwifery-and-nursing Charts",
     "category": "Midwifery and Nursing",
     "categorySlug": "midwifery-and-nursing",
     "slug": "cob-001",
-    "image": "/products/comming_soon.png",
+    "image": "/products/COB-001.png",
     "shortDescription": "Breast changes and uterus changes during pregnancy",
-    "fullDescription": "Breast changes and uterus changes during pregnancy",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-002",
-    "name": "Fetal Development Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-002",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Educational chart showing fetal development stages",
-    "fullDescription": "Educational chart showing fetal development stages",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-003",
-    "name": "EDD Calculator Chart/Wheel",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-003",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Estimated Date of Delivery calculation chart",
-    "fullDescription": "Estimated Date of Delivery calculation chart",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-004",
-    "name": "Stages of Labour Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-004",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "First, second, and third stages of labour",
-    "fullDescription": "First, second, and third stages of labour",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-005",
-    "name": "Birth Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-005",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Child birth educational chart",
-    "fullDescription": "Child birth educational chart",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-006",
-    "name": "Enlarged Partograph",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-006",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "SBA guideline-based labour monitoring chart",
-    "fullDescription": "SBA guideline-based labour monitoring chart",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-007",
-    "name": "Abnormal Presentations Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-007",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Breech and shoulder presentation chart",
-    "fullDescription": "Breech and shoulder presentation chart",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-008",
-    "name": "Face Presentation Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-008",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Educational chart on face presentation",
-    "fullDescription": "Educational chart on face presentation",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-009",
-    "name": "Brow Presentation Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-009",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Educational chart on brow presentation",
-    "fullDescription": "Educational chart on brow presentation",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-010",
-    "name": "Twin Pregnancy Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-010",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Educational chart on twin pregnancy",
-    "fullDescription": "Educational chart on twin pregnancy",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-011",
-    "name": "Placenta Praevia Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-011",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Different stages of placenta praevia",
-    "fullDescription": "Different stages of placenta praevia",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-012",
-    "name": "Abruption of Placenta Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-012",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Educational chart on placental abruption",
-    "fullDescription": "Educational chart on placental abruption",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-013",
-    "name": "Caput Succedaneum & Cephalhaematoma Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-013",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Neonatal head condition chart",
-    "fullDescription": "Neonatal head condition chart",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-014",
-    "name": "Congenital Malformation Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-014",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Cleft lip, spina bifida, hydrocephalus, anencephalus",
-    "fullDescription": "Cleft lip, spina bifida, hydrocephalus, anencephalus",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-015",
-    "name": "Government of India SBA Charts",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-015",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Skilled Birth Attendant educational charts",
-    "fullDescription": "Skilled Birth Attendant educational charts",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-016",
-    "name": "Anatomy of Female Reproductive System",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-016",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Female reproductive anatomy chart",
-    "fullDescription": "Female reproductive anatomy chart",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-017",
-    "name": "Anatomy of Male Reproductive System",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-017",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Male reproductive anatomy chart",
-    "fullDescription": "Male reproductive anatomy chart",
+    "fullDescription": ["Pregnancy Chart", "Fetal Development Chart","Stages of Labour Chart","EDD Calculator Chart/Wheel","Birth Chart","SBA guideline-based labour monitoring chart","Abnormal Presentations Chart","Face Presentation Chart", "Brow Presentation Chart","Twin Pregnancy Chart","Placenta Praevia Chart","Caput Succedaneum & Cephalhaematoma Chart","Congenital Malformation Chart","Government of India SBA Charts", "Anatomy of Female Reproductive System","Anatomy of Male Reproductive System"],
     "features": [],
     "featured": true
   },
@@ -1788,18 +1597,6 @@
     "image": "/products/comming_soon.png",
     "shortDescription": "Medical eligibility criteria wheel",
     "fullDescription": "Medical eligibility criteria wheel",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-021",
-    "name": "Female Reproductive System Chart",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-021",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Female reproductive anatomy educational chart",
-    "fullDescription": "Female reproductive anatomy educational chart",
     "features": [],
     "featured": true
   },
@@ -3495,8 +3292,6 @@
     "features": [],
     "featured": true
   },
-
-
 
 
  
