@@ -1553,65 +1553,50 @@
     "featured": false
   },
   {
-    "id": "COB-001",
-    "name": "midwifery-and-nursing Charts",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-001",
-    "image": "/products/COB-001.png",
-    "shortDescription": "Comprehensive educational chart set covering pregnancy, fetal development, labour, reproductive anatomy, and obstetric complications for midwifery and nursing education.",
-    "fullDescription": ["Pregnancy Chart", "Fetal Development Chart","Stages of Labour Chart","EDD Calculator Chart/Wheel","Birth Chart","SBA guideline-based labour monitoring chart","Abnormal Presentations Chart","Face Presentation Chart", "Brow Presentation Chart","Twin Pregnancy Chart","Placenta Praevia Chart","Caput Succedaneum & Cephalhaematoma Chart","Congenital Malformation Chart","Government of India SBA Charts", "Anatomy of Female Reproductive System","Anatomy of Male Reproductive System"],
-    "features": [],
-    "featured": true
+  "id": "COB-001",
+  "name": "Midwifery and Nursing Charts",
+  "category": "Midwifery and Nursing",
+  "categorySlug": "midwifery-and-nursing",
+  "slug": "cob-001",
+  "image": "/products/COB-001.png",
+
+  "shortDescription": "Comprehensive educational chart collection covering pregnancy, fetal development, labour, reproductive anatomy and obstetric complications.",
+
+  "note": {
+    "title": "Available Chart Types",
+    "items": [
+      "RM Series – Non-Tearable, Non-Reflective, PVC-Free Rexine Chart with Wooden Rollers (80 × 115 cm)",
+      "SX Series – Non-Tearable, Non-Reflective Synthetic Paper Chart with Wooden Rollers (50 × 70 cm)",
+      "R Series – Flexible Laminated Educational Chart with Wooden Rollers (51 × 66 cm)",
+      "P Series – Rigid Laminated Chart Mounted on Board with Premium Aluminum Frame (51 × 66 cm)"
+    ]
   },
-  {
-    "id": "COB-018",
-    "name": "Family Planning Flip Book",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-018",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Educational flip book for family planning",
-    "fullDescription": "Educational flip book for family planning",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-019",
-    "name": "BR/CR Flip Book for Counseling",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-019",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Counseling educational flip book",
-    "fullDescription": "Counseling educational flip book",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-020",
-    "name": "MEC Wheel",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-020",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Medical eligibility criteria wheel",
-    "fullDescription": "Medical eligibility criteria wheel",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "COB-022",
-    "name": "Litmus Paper Strips",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "cob-022",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Red and blue litmus paper strips",
-    "fullDescription": "Red and blue litmus paper strips",
-    "features": [],
-    "featured": true
-  },
+
+  "fullDescription": [
+    "Pregnancy Chart",
+    "Fetal Development Chart",
+    "Stages of Labour Chart",
+    "EDD Calculator Chart/Wheel",
+    "Birth Chart",
+    "SBA guideline-based labour monitoring chart",
+    "Abnormal Presentations Chart",
+    "Face Presentation Chart",
+    "Brow Presentation Chart",
+    "Twin Pregnancy Chart",
+    "Placenta Praevia Chart",
+    "Caput Succedaneum & Cephalhaematoma Chart",
+    "Congenital Malformation Chart",
+    "Government of India SBA Charts",
+    "Anatomy of Female Reproductive System",
+    "Anatomy of Male Reproductive System",
+    "Family Planning Flip Book",
+    "BR/CR Flip Book for Counseling",
+     "MEC Wheel"
+  ],
+
+  "features": [],
+  "featured": true
+},
   {
     "id": "CON-001",
     "name": "Glucometer Strips & Lancets",
@@ -1624,42 +1609,62 @@
     "features": [],
     "featured": true
   },
-  {
-    "id": "CON-002",
-    "name": "Dropper",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-002",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Laboratory dropper",
-    "fullDescription": "Laboratory dropper",
-    "features": [],
-    "featured": true
+   {
+  "id": "CON-002",
+  "name": "Laboratory Dropper",
+  "category": "Midwifery and Nursing",
+  "categorySlug": "midwifery-and-nursing",
+  "slug": "cob-001",
+  "image": "/products/COB-001.png",
+
+  "shortDescription": "Laboratory & General Nursing Supplies",
+
+  "note": {
+    "title": "Quality and Performance Highlights",
+    "items": [
+      "High-Quality Laboratory & Nursing Products",
+"Accurate, Safe & Reliable Performance",
+"Durable and Easy to Maintain",
+"Suitable for Hospitals, Clinics, Laboratories & Nursing Colleges",
+"Ideal for Patient Care, Diagnostic Testing & Medical Training",
+"Available in Multiple Sizes and Specifications",
+"Complies with Healthcare & Educational Institution Standards"
+    ]
   },
-  {
-    "id": "CON-003",
-    "name": "Benedict’s Solution",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-003",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "500ml laboratory reagent bottle",
-    "fullDescription": "500ml laboratory reagent bottle",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "CON-004",
-    "name": "Acetic Acid",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-004",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "500ml laboratory chemical bottle",
-    "fullDescription": "500ml laboratory chemical bottle",
-    "features": [],
-    "featured": true
-  },
+
+  "fullDescription": [
+    "Dropper",
+    "Benedict’s Solution",
+    "Acetic Acid",
+    "Povidone Iodine (Betadine)",
+    "New Born Dress",
+    "Blanket (New Born)",
+    "Soft Brush",
+    "Plastic Mug",
+    "Bed Sheets",
+    "Draw Sheets",
+    "Hydrogen Peroxide",
+    "Sodium Bicarbonate Powder",
+    "Kidney Tray (SS)",
+    "Spirit Lamp",
+    "Test Tube Box",
+    "Test Tube Holder",
+    "Enema Can",
+    "Measuring Jug",
+    "Douche Can",
+    "Sputum Mug",
+    "Bed Pan",
+    "Male Urinal",
+    "Plastic Funnel",
+    "Tub for Sitz Bath",
+    "Sponge Holding Forceps",
+     "Feeding Cup"
+  ],
+
+  "features": [],
+  "featured": true
+},
+ 
   {
     "id": "CON-005",
     "name": "Examination Gloves",
@@ -1684,18 +1689,7 @@
     "features": [],
     "featured": true
   },
-  {
-    "id": "CON-007",
-    "name": "Povidone Iodine (Betadine)",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-007",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "100ml antiseptic solution",
-    "fullDescription": "100ml antiseptic solution",
-    "features": [],
-    "featured": true
-  },
+
   {
     "id": "CON-008",
     "name": "Sterile Suction Catheters",
@@ -1777,30 +1771,6 @@
     "image": "/products/comming_soon.png",
     "shortDescription": "Urine collection bag",
     "fullDescription": "Urine collection bag",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "CON-015",
-    "name": "New Born Dress",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-015",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Infant clothing",
-    "fullDescription": "Infant clothing",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "CON-016",
-    "name": "Blanket (New Born)",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-016",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Newborn blanket",
-    "fullDescription": "Newborn blanket",
     "features": [],
     "featured": true
   },
@@ -1888,18 +1858,7 @@
     "features": [],
     "featured": true
   },
-  {
-    "id": "CON-024",
-    "name": "Soft Brush",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-024",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Cleaning brush",
-    "fullDescription": "Cleaning brush",
-    "features": [],
-    "featured": true
-  },
+ 
   {
     "id": "CON-025",
     "name": "Utility Gloves",
@@ -1912,18 +1871,7 @@
     "features": [],
     "featured": true
   },
-  {
-    "id": "CON-026",
-    "name": "Plastic Mug",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-026",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "1 litre plastic mug",
-    "fullDescription": "1 litre plastic mug",
-    "features": [],
-    "featured": true
-  },
+ 
   {
     "id": "CON-027",
     "name": "Dry Duster Cloth",
@@ -2032,30 +1980,8 @@
     "features": [],
     "featured": true
   },
-  {
-    "id": "CON-036",
-    "name": "Bed Sheets",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-036",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Hospital bed sheets",
-    "fullDescription": "Hospital bed sheets",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "CON-037",
-    "name": "Draw Sheets",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-037",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "Draw sheets",
-    "fullDescription": "Draw sheets",
-    "features": [],
-    "featured": true
-  },
+
+ 
   {
     "id": "CON-038",
     "name": "Towels",
@@ -2149,30 +2075,6 @@
     "image": "/products/comming_soon.png",
     "shortDescription": "Antiseptic solution",
     "fullDescription": "Antiseptic solution",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "CON-046",
-    "name": "Hydrogen Peroxide",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-046",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "500 ml disinfectant solution",
-    "fullDescription": "500 ml disinfectant solution",
-    "features": [],
-    "featured": true
-  },
-  {
-    "id": "CON-047",
-    "name": "Sodium Bicarbonate Powder",
-    "category": "Midwifery and Nursing",
-    "categorySlug": "midwifery-and-nursing",
-    "slug": "con-047",
-    "image": "/products/comming_soon.png",
-    "shortDescription": "500 gm powder",
-    "fullDescription": "500 gm powder",
     "features": [],
     "featured": true
   },
