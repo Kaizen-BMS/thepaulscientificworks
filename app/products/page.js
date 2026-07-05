@@ -108,13 +108,40 @@ function ProductModal({ product, onClose }) {
                     sizes="(max-width: 768px) 90vw, 380px" quality={75}
                     onError={e => { e.currentTarget.src = "/products/placeholder.png"; }}
                   />
+                  
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-all duration-200 flex items-center justify-center">
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity bg-black/50 backdrop-blur-sm rounded-full px-3 py-1.5 flex items-center gap-1.5">
                       <Maximize2 className="w-3.5 h-3.5 text-white" />
                       <span className="text-white text-[10px] font-medium">Click to enlarge</span>
+                      
                     </div>
+                    
                   </div>
+                  
                 </div>
+                {product.note && (
+  <div className="mt-4 rounded-xl border border-amber-500/20 bg-amber-50 dark:bg-amber-500/10 p-4">
+    <h4 className="mb-3 text-sm font-semibold text-amber-700 dark:text-amber-400">
+      {product.note.title}
+    </h4>
+
+    <ul className="space-y-2">
+      {product.note.items.map((item, index) => (
+        <li
+          key={index}
+          className="flex items-start gap-2 text-sm text-slate-700 dark:text-slate-300"
+        >
+          <span className="mt-1 text-amber-600 dark:text-amber-400">
+            •
+          </span>
+
+          <span>{item}</span>
+        </li>
+      ))}
+    </ul>
+  </div>
+)}
+                
 
                 <div className="flex flex-col gap-2.5 mt-auto flex-shrink-0">
                   <a href={`https://wa.me/${WHATSAPP}?text=${waMsg}`} target="_blank" rel="noopener noreferrer"
@@ -147,17 +174,17 @@ function ProductModal({ product, onClose }) {
                 )}
 
                {Array.isArray(product.fullDescription) ? (
-  <ul className="grid gap-3 sm:grid-cols-2">
-    {product.fullDescription.map((item, index) => (
-      <li
-        key={index}
-        className="flex items-center gap-3 rounded-lg border border-slate-700 bg-slate-800/50 px-4 py-3"
-      >
-        <div className="h-2 w-2 rounded-full bg-blue-500 shrink-0"></div>
-        <span className="text-sm text-slate-300">{item}</span>
-      </li>
-    ))}
-  </ul>
+ <ul className="space-y-2 pl-2">
+  {product.fullDescription.map((item, index) => (
+    <li
+      key={index}
+      className="flex items-start gap-3 text-sm text-slate-300 leading-relaxed"
+    >
+      <span className="mt-2 h-2 w-2 rounded-full bg-blue-500 shrink-0"></span>
+      <span>{item}</span>
+    </li>
+  ))}
+</ul>
 ) : (
   <p className="text-slate-300 leading-relaxed">
     {product.fullDescription}
