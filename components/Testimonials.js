@@ -181,30 +181,7 @@ const testimonials = [
         </div>
 
         {/* Stats */}
-        <motion.div
-          className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-20"
-          variants={containerVariants}
-          initial="hidden"
-          whileInView="visible"
-          viewport={{ once: true }}
-        >
-          {[
-            { label: 'Satisfied Clients', value: '1000+' },
-            { label: 'Government Contracts', value: '500+' },
-            { label: 'Serving Since', value: '1990' },
-          ].map((stat, idx) => (
-            <motion.div
-              key={idx}
-              className="text-center p-6 bg-gradient-to-br from-blue-500/10 to-slate-600/10 rounded-xl border border-blue-500/20"
-              variants={itemVariants}
-            >
-              <p className="text-3xl sm:text-4xl font-bold text-blue-400 mb-2">
-                {stat.value}
-              </p>
-              <p className="text-slate-400">{stat.label}</p>
-            </motion.div>
-          ))}
-        </motion.div>
+       
       </div>
     </section>
   );
