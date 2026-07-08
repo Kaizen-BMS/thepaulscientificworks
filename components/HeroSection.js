@@ -154,13 +154,15 @@ export default function HeroSection() {
 
           {/* Stats */}
           <motion.div
-            className="pt-12 grid grid-cols-3 gap-8 max-w-2xl mx-auto"
+            className="pt-12 grid grid-cols-4 gap-8 max-w-2xl mx-auto"
             variants={itemVariants}
           >
             {[
+               { label: 'Serving Since', value: '1990' },
               { label: 'Products', value: '500+' },
-              { label: 'Institutions', value: '1000+' },
+              { label: 'Satisfied Clients', value: '1000+' },
               { label: 'No. of Certificates', value: '25+' },
+             
             ].map((stat, idx) => (
               <motion.div
                 key={idx}
